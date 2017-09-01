@@ -1,0 +1,17 @@
+NOP, , ,0
+HALT, , ,1
+MOV,reg,reg,2
+MOV,reg,addr,3
+MOV,addr,reg,4
+MOV,reg,immediate,5
+MOV,addr,immediate,6
+ADD,reg,reg,7
+SUB,reg,reg,8
+CMP,reg,reg,9
+JMP,addr,,10
+JZ,offset,,11
+OUT,reg, ,12
+INC,reg, ,13
+DEC,reg, ,14
+MUL,reg,reg,15
+DIV,reg,reg,16
